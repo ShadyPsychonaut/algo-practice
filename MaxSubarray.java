@@ -16,7 +16,7 @@ public class MaxSubarray {
         int[] arr1 = { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
         int[] arr2 = { -2, -5, -3, -6 };
         MaxSubarray m = new MaxSubarray();
-        System.out.println(m.maxSubarray(arr1)); // should output -2
-        System.out.println(m.maxSubarray(arr2)); // should output 6
+        System.out.println(m.maxSubarray(arr1)); // should output 6
+        System.out.println(m.maxSubarray(arr2)); // should output -2
     }
 }
