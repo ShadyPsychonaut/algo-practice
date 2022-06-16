@@ -89,17 +89,17 @@ int main()
     head1 = insert(head1, 9);
     head1 = insert(head1, 9);
 
+    head2 = insert(head2, 0);
+    head2 = insert(head2, 0);
     head2 = insert(head2, 9);
     head2 = insert(head2, 9);
-    head2 = insert(head2, 9);
-    head2 = insert(head2, 9);
-    head2 = insert(head2, 9);
+    head2 = insert(head2, 1);
 
     ListNode *head = addTwoNumbers(head1, head2);
 
     while (head != NULL)
     {
-        cout << head->val << " ";
+        cout << head->val << " "; // Should output 1 9 8 9 1 1
         head = head->next;
     }
 
