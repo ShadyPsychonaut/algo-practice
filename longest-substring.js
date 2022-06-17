@@ -12,5 +12,5 @@ const lengthOfLongestSubstring = (s) => {
   return max;
 };
 
-console.log(lengthOfLongestSubstring("dvdf")); // Output: 3
-console.log(lengthOfLongestSubstring("abcabcdbb")); // Output: 4
+console.log(lengthOfLongestSubstring("dvdf")); // Output: 3 for "vdf"
+console.log(lengthOfLongestSubstring("abcabcdbb")); // Output: 4 for "abcd"
