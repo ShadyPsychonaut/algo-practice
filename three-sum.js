@@ -53,4 +53,4 @@ const twoSum = (target, nums, pos) => {
   return result;
 };
 
-console.log(threeSum([-1, 0, 1, 2, -1, -4, 2, -3, 2, 3, -1]));
+console.log(threeSum([-1, 0, 1, 2, -1, -4, -2, -3, 3, 0, 4]));
