@@ -1,3 +1,4 @@
+// This code finds the longest sustring without any repeating character
 const lengthOfLongestSubstring = (s) => {
   if (s.length === 1) return 1;
   let dict = {};
