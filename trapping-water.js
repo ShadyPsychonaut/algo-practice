@@ -19,4 +19,4 @@ var trap = (height) => {
   return ans;
 };
 
-console.log(trap([4, 2, 0, 3, 2, 5]));
+console.log(trap([4, 2, 0, 3, 2, 5])); // prints 9
