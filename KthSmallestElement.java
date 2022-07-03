@@ -15,10 +15,9 @@ public class KthSmallestElement {
         return ans;
     }
 
+    // Time: O(n + n) = O(n)
     private int count(int[][] matrix, int num) {
-        int row = matrix.length - 1;
-        int col = 0;
-        int counter = 0;
+        int row = matrix.length - 1, col = 0, counter = 0;
         while (row >= 0 && col < matrix.length) {
             if (matrix[row][col] > num)
                 row--;
@@ -36,3 +35,6 @@ public class KthSmallestElement {
         System.out.println(solver.kthSmallest(matrix, 8)); // prints 13
     }
 }
+
+// Time: O(n * log(matrix[n - 1][n - 1] - matrix[0][0]))
+// Space: O(1)
