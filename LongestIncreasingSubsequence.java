@@ -19,7 +19,7 @@ public class LongestIncreasingSubsequence {
         return piles.size();
     }
 
-    // Using DP, O(n ^ 2)
+    // Using DP, O(n ^ 2) time, O(n) space
     public int lengthOfLISUsingDP(int[] nums) {
         int n = nums.length;
         if (n <= 1)
@@ -86,7 +86,7 @@ public class LongestIncreasingSubsequence {
 
     private static class Node implements Comparable<Node> {
         int val;
-        Node prev;
+        Node prev; // Pointer to previous pile's top card
 
         public Node(int val) {
             this.val = val;
