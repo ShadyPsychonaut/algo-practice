@@ -22,7 +22,7 @@ public class TreeLevelOrderTraversal {
                 if (node.right != null)
                     queue.add(node.right);
             }
-            res.add(new ArrayList<>(level));
+            res.add(level);
         }
         return res;
     }
